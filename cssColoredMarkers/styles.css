@@ -46,6 +46,16 @@ h1 {
 
 .yellow{
   background: linear-gradient(rgb(255,255,0), rgb(255,255,0), rgb(255,255,0));
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.8);
+}
+
+.cyan{
+  background: linear-gradient(rgb(255,255,0), rgb(255,255,0), rgb(255,255,0));
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.8);
+}
+
+.magenta{
+  background: linear-gradient(rgb(255,255,0), rgb(255,255,0), rgb(255,255,0));
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.8);
 }
   

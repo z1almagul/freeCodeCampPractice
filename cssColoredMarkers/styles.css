@@ -47,7 +47,7 @@ h1 {
 /* red background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));*/
 
 .yellow{
-  background: linear-gradient(rgb(255,255,0), rgb(245,245,113), rgb(255,255,0));
+  background: linear-gradient(rgb(133,181,14), rgb(245,245,113), rgb(255,255,0));
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.8);
 }
 

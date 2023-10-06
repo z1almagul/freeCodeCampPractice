@@ -1,63 +1,92 @@
 h1 {
-  text-align: center;
-}
-
-.container {
-  background-color: rgb(255, 255, 255);
-  padding: 10px 0;
-}
-
-.marker {
-  width: 200px;
-  height: 25px;
-  margin: 10px auto;
-}
-
-.cap {
-  width: 60px;
-  height: 25px;
-}
-
-.sleeve {
-  width: 110px;
-  height: 25px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-left: 10px double rgba(0, 0, 0, 0.75);
-}
-
-.cap, .sleeve {
-  display: inline-block;
-}
-
-.red {
-  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
-  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
-}
-
-.green {
-  background: linear-gradient(#55680D, #71F53E, #116C31);
-  box-shadow: 0 0 20px 0 #3B7E20CC;
-}
-
-.blue {
-  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
-  box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
-}
-
-/* red background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));*/
-
-.yellow{
-  background: linear-gradient(rgb(133,181,14), rgb(245,245,113), rgb(255,255,0));
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.8);
-}
-
-.cyan{
-  background: linear-gradient(rgb(255,255,0), rgb(255,255,0), rgb(255,255,0));
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.8);
-}
-
-.magenta{
-  background: linear-gradient(rgb(255,255,0), rgb(255,255,0), rgb(255,255,0));
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.8);
-}
+    text-align: center;
+  }
   
+  .container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+  }
+  
+  .marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+  }
+
+  .cap {
+    width: 60px;
+    height: 25px;
+  }
+  
+  .sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+    border-right: 10px double rgba(0,0,0,0.75);
+  }
+  
+  .cap, .sleeve {
+    display: inline-block;
+  }
+  
+  .red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+  }
+  
+  .green {
+    background: linear-gradient(rgb(85, 104, 13), rgb(113, 245, 62), #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+  }
+  
+  .blue {
+    background: linear-gradient(hsl(186, 76%, 16%), rgb(61, 113, 245), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 rgba(32, 59, 126, 0.8);
+  }
+    
+  .yellow{
+    background: linear-gradient(rgb(150, 165, 35), rgb(245, 245, 0), rgb(151, 199, 19));
+    box-shadow: 0 0 20px 0 rgba(91, 194, 78, 0.8);
+  }
+  
+  .cyan{
+    background: linear-gradient(rgb(17, 137, 97), rgb(0,245,245), rgb(14, 78, 117));
+    box-shadow: 0 0 20px 0 rgba(17, 104, 141, 0.8);
+  }
+  
+  .magenta{
+    background: linear-gradient(rgb(202, 80, 226), rgb(245,0,245), rgb(153, 23, 99));
+    box-shadow: 0 0 20px 0 rgba(135, 15, 135, 0.8);
+  }
+
+  .orange{
+    background: linear-gradient(rgb(169, 72, 16), rgb(248, 149, 30), rgb(145, 85, 16));
+    box-shadow: 0 0 20px 0 rgba(230, 100, 0, 0.8);
+  }
+
+  .springgreen{
+    background: linear-gradient(rgb(0,200,127), rgb(0,245,140), rgb(30,150,120));
+    box-shadow: 0 0 20px 0 rgba(17, 104, 120, 0.8);
+  }
+
+  .violet{
+    background: linear-gradient(rgb(100, 26, 189), rgb(127,120,245), rgb(84, 12, 67));
+    box-shadow: 0 0 20px 0 rgba(127, 100, 245, 0.8);
+  }
+  
+  .chartreusegreen{
+  background: linear-gradient(rgb(84, 149, 14), rgb(127,255,32), rgb(87,145,35));
+    box-shadow: 0 0 20px 0 rgba(45, 75, 22, 0.8);
+  }
+
+  .azure{
+    background: linear-gradient(rgb(33, 113, 156), rgb(81, 159, 233), rgb(0, 45, 165));
+    box-shadow: 0 0 20px 0 rgba(91, 194, 78, 0.8);
+  }
+
+  .rose{
+    background: linear-gradient(rgb(192, 18, 87), rgb(255, 76, 127), rgb(180, 14, 69));
+    box-shadow: 0 0 20px 0 rgba(115, 24, 69, 0.8);
+  }
+ 

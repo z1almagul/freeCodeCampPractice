@@ -67,7 +67,7 @@ input[type="submit"] {
   min-width: 300px;
 }
 
-input[type="submit"]:clicked{
+input[type="submit"]:hover{
   background-color: pink;
 }
 

@@ -1,0 +1,29 @@
+body{
+  font-family: Calibri;
+  font-size: 16px;
+  background-image: url(https://i.pinimg.com/originals/6c/92/94/6c9294bbc335a88a6fa662c46d6a9558.jpg);
+}
+
+p{
+  font-style: italic;
+  text-align: center;
+}
+
+form{
+  display: block;
+}
+
+input, select{
+  width: 100%;
+  min-height: 2rem;
+  margin: auto;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  min-height: unset;
+}
+
+#title{
+  font-family: cambria;
+  text-align: center;
+}

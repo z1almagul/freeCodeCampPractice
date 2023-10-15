@@ -1,0 +1,36 @@
+*{
+  font-family: sans-serif;
+}
+
+main{
+  background-color: rgb(230,234,245);
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+#img-div{
+  background-color: rgb(245,250,230);
+  padding: 5px;
+}
+
+#image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 10px auto;
+}
+
+ul{
+  text-align: center;
+  margin: 0 auto;
+}
+
+li{
+  display: block;
+}
+
+span{
+  font-weight: 800;
+  padding-right: 20px;
+}

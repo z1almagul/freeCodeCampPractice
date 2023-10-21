@@ -1,0 +1,93 @@
+*{
+  border-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: calibri;
+  font-size: 16px;
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 10px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+#navbar{
+  border-right: 1px solid black;
+  min-width: 170px;
+  padding-left: 10px;
+  background-color: whitesmoke;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  padding-top: 5px;
+}
+
+#navbar ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+#navbar ul li{
+  padding: 0.5rem;
+  border-bottom: 1px solid grey;
+  
+}
+
+#navbar ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+#main-doc{
+  margin-left: 10px;
+  position: absolute;
+  left: 200px;
+}
+
+header{
+  font-weight: bold;
+  font-size: 1.5rem;
+  
+}
+
+#main-doc header{
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+#main-doc ul{
+  margin-left: 30px;
+}
+
+section p{
+  margin-bottom: 10px;
+}
+
+code{
+  background-color: rgb(199, 245, 128);
+  border-radius: 0.5rem;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 7px;
+}
+
+#Snacks ul li:last-of-type{
+  margin-bottom: 10px;
+}
+
+@media (width="1600px") and (height="800px"){
+  #navbar{
+    /*shown on the left side of teh screen
+    always visible*/
+  }
+
+}

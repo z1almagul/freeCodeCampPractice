@@ -22,7 +22,6 @@ html{
   scroll-behavior: smooth;
   color: var(--color3);
   min-width: 350px;
-  overflow: hidden;
 }
 
 nav{

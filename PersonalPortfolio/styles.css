@@ -98,7 +98,6 @@ section{
 .project-tile p{
   background-color: var(--color2);
   padding: 15px 0;
-  margin-top: 0;
 }
 
 .project-tile a{

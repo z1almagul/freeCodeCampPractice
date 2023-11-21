@@ -75,3 +75,9 @@ body{
 #new-quote{
     float: right;
 }
+
+@media screen and (max-width: 400px){
+  #quote-box, .buttons, #author, #text{
+    width: 250px;
+  }
+}

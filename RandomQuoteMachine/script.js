@@ -54,6 +54,7 @@ function getQuote(){
     currentAuthor = randomQuote.author;
     //adjusting tweet button attribute
     $('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&text='+encodeURIComponent('"'+currentQuote+'" '+currentAuthor));
+    $('#share-quote').attr('href', 'https://wa.me/?text='+encodeURIComponent('"'+currentQuote+'" '+currentAuthor));
     //set quote and author text
     $('#text').animate({opacity: 0}, 500, function(){
         $(this).animate({opacity: 1}, 500);
